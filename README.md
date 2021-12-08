@@ -13,9 +13,13 @@ Sau khi run 3 container đã được chạy, có thể mở Docker Desktop đ�
 ## Có thể tự tạo 2 image react-app và api-server = Dockerfile như sau:
 1. react-app
 
+Mở terminal scale-app-master, run
+
 `docker build -t "react-app" ./client/`
 
 2. api-server
+
+Mở terminal scale-app-master, run
 
 `docker build -t "api-server" ./server/`
 
