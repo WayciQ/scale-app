@@ -5,9 +5,10 @@
 
 ## Có thể tự tạo 2 image react-app và api-server = Dockerfile như sau:
 1. react-app
-docker build -t "react-app" ./client/
+`docker build -t "react-app" ./client/`
 
 2. api-server
-docker build -t "api-server" ./server/
+
+`docker build -t "api-server" ./server/`
 
 Sau khi tạo xong 2 image mới, nhớ sửa lại tên image trong docker-compose.yml
